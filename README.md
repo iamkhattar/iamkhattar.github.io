@@ -2,4 +2,4 @@
 
 This is the repository for my personal website.
 
-The website can be accessed [here](https://iamkhattar.github.io)
+The website can be accessed [here](https://shivamkhattar.com)
