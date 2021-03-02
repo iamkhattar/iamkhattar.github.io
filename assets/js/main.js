@@ -155,9 +155,9 @@
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
+  // certificates carousel (uses the Owl Carousel library)
+  $(".certificates-carousel").owlCarousel({
+    autoplay: false,
     dots: true,
     loop: true,
     responsive: {
