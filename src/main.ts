@@ -17,8 +17,6 @@ import dayjs from 'dayjs'
 import LocalizedFormat from 'dayjs/plugin/localizedFormat.js'
 import { setupRouterScroller } from 'vue-router-better-scroller'
 import FloatingVue from 'floating-vue'
-// eslint-disable-next-line ts/ban-ts-comment
-// @ts-expect-error
 import App from './App.vue'
 
 const routes = autoRoutes.map((i) => {
