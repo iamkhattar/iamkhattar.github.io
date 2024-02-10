@@ -37,7 +37,7 @@ jobs:
         run: npm run lint:md
       - name: Spellcheck
         run: npm run spellcheck
-      - name: Spellcheck
+      - name: Build
         run: npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v4
