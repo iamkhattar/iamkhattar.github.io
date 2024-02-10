@@ -1,0 +1,29 @@
+on:
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+name: CI for website
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Set up NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "npm"
+      - name: Install dependencies
+        run: npm install
+      - name: Lint code
+        run: npm run lint:code
+      - name: Lint markdown
+        run: npm run lint:md
+      - name: Spellcheck
+        run: npm run spellcheck
+      - name: Spellcheck
+        run: npm run build
