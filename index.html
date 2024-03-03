@@ -3,18 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Shivam Khattar" />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="revisit-after" content="7 days" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Shivam Khattar's Blog"
-      href="/feed.xml"
-    />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <title>Shivam Khattar</title>
     <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
@@ -30,21 +18,33 @@
       ;(function (l) {
         if (l.search[1] === '/') {
           var decoded = l.search
-            .slice(1)
-            .split('&')
-            .map(function (s) {
-              return s.replace(/~and~/g, '&')
-            })
-            .join('?')
+                  .slice(1)
+                  .split('&')
+                  .map(function (s) {
+                    return s.replace(/~and~/g, '&')
+                  })
+                  .join('?')
           window.history.replaceState(
-            null,
-            null,
-            l.pathname.slice(0, -1) + decoded + l.hash,
+                  null,
+                  null,
+                  l.pathname.slice(0, -1) + decoded + l.hash,
           )
         }
       })(window.location)
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Shivam Khattar's Blog"
+      href="/feed.xml"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <title>Shivam Khattar</title>
     <script>
       ;(function () {
         const prefersDark =
