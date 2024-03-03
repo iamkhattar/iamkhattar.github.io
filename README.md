@@ -24,7 +24,7 @@ To run the project in development mode, use the following command:
 npm run dev
 ```
 
-This will start a development server at http://localhost:3333/.
+This will start a development server at [http://localhost:3333/](http://localhost:3333/).
 
 ### Production Build
 
