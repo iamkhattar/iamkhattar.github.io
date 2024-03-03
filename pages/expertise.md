@@ -102,7 +102,7 @@ projects:
     - name: 'Jenkins'
       link: 'https://www.jenkins.io/'
       desc: 'Continuous integration and automation'
-      icon: "i-mdi:jenkins"
+      icon: "i-simple-icons:jenkins"
 # cspell:enable
 ---
 
