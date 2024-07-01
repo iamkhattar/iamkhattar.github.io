@@ -8,6 +8,7 @@ recording: false
 type: blog
 development: true
 ---
+
 Class Data Sharing (CDS) is a powerful JVM feature that can significantly improve the startup time and memory footprint of Java applications, including those built with Spring Boot. In this blog post, we'll explore CDS in depth, examine Spring Boot's support for it, and demonstrate its benefits through code examples and benchmarks.
 
 ## What is Class Data Sharing?

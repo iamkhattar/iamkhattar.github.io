@@ -8,6 +8,7 @@ recording: false
 type: blog
 development: true
 ---
+
 In modern software development, data validation is a crucial aspect of ensuring the integrity and reliability of an application. It involves checking user input or data against a set of rules or constraints to ensure it meets the required standards. In Spring Boot, building a robust validation engine can be a challenging task, especially when dealing with complex validation scenarios.
 
 In this blog post, we'll dive into building a robust validation engine in Spring Boot by defining an interface for validation rules and autowiring a list of all found rules. We'll provide detailed code samples, discuss the benefits, address potential drawbacks, and explore advanced use cases to help you build a flexible and extensible validation system for your application.

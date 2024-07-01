@@ -8,6 +8,7 @@ recording: false
 type: blog
 development: true
 ---
+
 Java, one of the most popular programming languages, has undergone significant improvements in its performance over the years. One of the key advancements in Java's execution model is tiered compilation, a sophisticated Just-In-Time (JIT) compilation strategy that optimizes code execution dynamically. This blog post delves into the intricacies of tiered compilation, exploring its mechanisms, benefits, and impact on Java application performance.
 
 As Java developers, understanding tiered compilation is crucial for writing efficient, high-performance applications. We'll explore how this compilation strategy balances quick startup times with optimized long-running performance, and how it adapts to the changing behavior of your application at runtime.
