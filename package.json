@@ -70,10 +70,10 @@
     "unplugin-icons": "^0.18.1",
     "unplugin-vue-components": "^0.26.0",
     "unplugin-vue-markdown": "^0.25.2",
-    "vite": "^5.0.10",
+    "vite": "^5.1.7",
     "vite-plugin-inspect": "^0.8.1",
     "vite-plugin-pages": "^0.32.0",
-    "vite-ssg": "^0.23.6",
+    "vite-ssg": "^0.23.7",
     "vite-svg-loader": "^5.1.0"
   },
   "simple-git-hooks": {

@@ -7,6 +7,11 @@ export default antfu(
     formatters: true,
   },
   {
+    ignores: [
+      '**/*.md',
+    ],
+  },
+  {
     rules: {
       'no-labels': 'off',
       'no-lone-blocks': 'off',
