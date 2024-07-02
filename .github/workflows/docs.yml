@@ -4,10 +4,10 @@ on:
       - master
   workflow_dispatch:
 
-name: CI for website
+name: Docs Lint
 
 jobs:
-  ci:
+  lint-docs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,11 +19,7 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm install --force
-      - name: Lint code
-        run: npm run lint:code
       - name: Lint markdown
         run: npm run lint:md
       - name: Spellcheck
         run: npm run spellcheck
-      - name: Build
-        run: npm run build
