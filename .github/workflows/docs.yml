@@ -4,7 +4,7 @@ on:
       - master
   workflow_dispatch:
 
-name: Docs Lint
+name: Lint Docs
 
 jobs:
   lint-docs:
