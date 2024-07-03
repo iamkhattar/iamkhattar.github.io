@@ -1,9 +1,9 @@
 ---
-title: A Deep Dive into Profile-Guided Optimization in GraalVM
+title: Deep Dive into Profile-Guided Optimization in GraalVM
 date: 2024-07-01
 duration: 15min
 lang: en
-description: A Deep Dive into Profile-Guided Optimization in GraalVM
+description: Deep Dive into Profile-Guided Optimization in GraalVM
 recording: false
 type: blog
 development: true
