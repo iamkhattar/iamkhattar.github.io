@@ -31,6 +31,7 @@ if (typeof window !== 'undefined') {
       } as any
       const namespace = args[1]
       api.q = api.q || []
+      // eslint-disable-next-line ts/no-unused-expressions
       typeof namespace === 'string'
         ? (cal.ns[namespace] = api) && p(api, args)
         : p(cal, args)
