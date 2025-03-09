@@ -2,7 +2,7 @@
 defineProps<{ projects: Record<string, any[]> }>()
 
 function slug(role: string) {
-  return role.toLowerCase().replace(/[\s\\\/]+/g, '-')
+  return role.toLowerCase().replace(/[\s\\/]+/g, '-')
 }
 </script>
 

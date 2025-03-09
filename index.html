@@ -7,12 +7,7 @@
     <meta name="revisit-after" content="7 days" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="Shivam Khattar's Blog"
-      href="/feed.xml"
-    />
+    <link rel="alternate" type="application/rss+xml" title="Shivam Khattar's Blog" href="/feed.xml" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <title>Shivam Khattar</title>
     <!-- Start Single Page Apps for GitHub Pages -->
@@ -36,20 +31,14 @@
               return s.replace(/~and~/g, '&')
             })
             .join('?')
-          window.history.replaceState(
-            null,
-            null,
-            l.pathname.slice(0, -1) + decoded + l.hash,
-          )
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash)
         }
       })(window.location)
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
     <script>
       ;(function () {
-        const prefersDark =
-          window.matchMedia &&
-          window.matchMedia('(prefers-color-scheme: dark)').matches
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
         const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
         if (setting === 'dark' || (prefersDark && setting !== 'light'))
           document.documentElement.classList.toggle('dark', true)
