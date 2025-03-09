@@ -546,6 +546,7 @@ This approach creates a clear, type-safe pipeline with minimal code.
 ### When to Use Records
 
 Records are ideal for:
+
 - Data transfer objects (DTOs)
 - Value objects in domain-driven design
 - Immutable data carriers
@@ -555,6 +556,7 @@ Records are ideal for:
 ### When Not to Use Records
 
 Records might not be the best choice for:
+
 - Classes that need to maintain invariants not enforceable via constructors
 - Entities with identity separate from their properties
 - Classes that need to extend other classes
@@ -562,7 +564,7 @@ Records might not be the best choice for:
 
 ### Common Anti-Patterns
 
-1. **Mutable fields within records**
+**Mutable fields within records**
 
 ```java
 // Anti-pattern: Record with mutable component
@@ -592,7 +594,7 @@ public record UserPreferences(String userId, List<String> favorites) {
 }
 ```
 
-2. **Overriding accessors to return different values**
+**Overriding accessors to return different values**
 
 ```java
 // Anti-pattern: Accessor returns different value than component

@@ -112,7 +112,7 @@ public class DynamicProxyExample {
 
 Running this code will produce output similar to:
 
-```
+```txt
 Before method: findById
 Finding user by ID: 123
 After method: findById, execution time: 123456 ns
@@ -357,7 +357,7 @@ public class TransactionalProxyExample {
 
 The output will show transactions only around the annotated methods:
 
-```
+```txt
 Finding user by ID: 1
 Finding all users
 Beginning transaction
@@ -536,7 +536,7 @@ public class DynamicProxyBenchmark {
 
 Typical results might look like:
 
-```
+```txt
 Benchmark                          Mode  Cnt     Score     Error  Units
 DynamicProxyBenchmark.directCall   avgt    5     8.623 ±   0.452  ns/op
 DynamicProxyBenchmark.proxiedCall  avgt    5   257.843 ±  15.671  ns/op
