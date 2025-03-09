@@ -6,22 +6,22 @@ plum: true
 wrapperClass: 'text-center'
 projects:
   Work Experience:
+    - role: 'VP Software Engineer'
+      link: 'https://www.barclays.co.uk/'
+      company: "Barclays"
+      timePeriod: 'Mar 25 - Present'
+      location: 'Glasgow, UK'
+      icon: 'i-simple-icons:barclays'
     - role: 'AVP Java Reference Architecture Engineer'
       link: 'https://www.barclays.co.uk/'
       company: "Barclays"
-      timePeriod: 'Nov 22 - Present'
+      timePeriod: 'Nov 22 - Mar 25'
       location: 'Glasgow, UK'
       icon: 'i-simple-icons:barclays'
-    - role: 'Java Reference Architecture Engineer'
+    - role: 'Software Engineer'
       link: 'https://www.barclays.co.uk/'
       company: "Barclays"
-      timePeriod: 'Sep 21 - Oct 22'
-      location: 'Glasgow, UK'
-      icon: 'i-simple-icons:barclays'
-    - role: 'Big Data Engineer'
-      link: 'https://www.barclays.co.uk/'
-      company: "Barclays"
-      timePeriod: 'Aug 20 - Sep 21'
+      timePeriod: 'Aug 20 - Oct 22'
       location: 'Glasgow, UK'
       icon: 'i-simple-icons:barclays'
   Education:
