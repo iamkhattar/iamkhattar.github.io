@@ -564,7 +564,7 @@ Records might not be the best choice for:
 
 ### Common Anti-Patterns
 
-**Mutable fields within records**
+#### Mutable fields within records
 
 ```java
 // Anti-pattern: Record with mutable component
@@ -594,7 +594,7 @@ public record UserPreferences(String userId, List<String> favorites) {
 }
 ```
 
-**Overriding accessors to return different values**
+#### Overriding accessors to return different values
 
 ```java
 // Anti-pattern: Accessor returns different value than component

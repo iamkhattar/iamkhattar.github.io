@@ -543,6 +543,7 @@ DynamicProxyBenchmark.proxiedCall  avgt    5   257.843 ±  15.671  ns/op
 ```
 
 The proxy introduces overhead due to:
+
 1. Method lookup via reflection
 2. Argument wrapping in arrays
 3. Invocation handler delegation
